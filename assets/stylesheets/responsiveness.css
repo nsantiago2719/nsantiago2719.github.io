@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+	.cover{
+		background-image: url('../images/background(m).png');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+@media (max-width: 667px){
+	.cover{
+		background-image: none;
+		background-color:black;
+	}
+}
