@@ -113,7 +113,8 @@ a:visited{
 {
 	margin: 2rem 0px 2rem 0px;
 	color: white;
-	font-size: 2rem;
+	border-right: solid 1px white;
+	padding-right: 5px;
 }
 .contact{
 	font-size: 2rem;
@@ -122,4 +123,11 @@ a:visited{
 .
 .sm{
 	font-size: 0.1rem;
+}
+.sub-list{
+	padding-bottom: 2vh;
+}
+.sub-list li{
+	font-size: 2rem;
+	display: inline;
 }
