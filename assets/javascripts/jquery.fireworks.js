@@ -26,12 +26,13 @@
     canvas.id = 'fireworksField';
 		canvas.width = SCREEN_WIDTH;
 		canvas.height = SCREEN_HEIGHT;
-		canvas.style.width  = SCREEN_WIDTH + 'px';
-		canvas.style.height = SCREEN_HEIGHT + 'px';
+		canvas.style.width  = SCREEN_WIDTH;
+		canvas.style.height = SCREEN_HEIGHT;
 		canvas.style.position = 'absolute';
-		canvas.style.top = '0px';
-		canvas.style.left = '0px';
+		canvas.style.bottom= '0';
+		canvas.style.left = '0';
     canvas.style.opacity = options.opacity;
+    canvas.style.zIndex = "3"
     var context = canvas.getContext('2d');
 
     // The Particles Object
