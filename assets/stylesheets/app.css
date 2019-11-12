@@ -145,11 +145,12 @@ a:visited{
   text-align: left;
 
   strong {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
-  ul {
-    list-style-type: circle;
-  }
+}
+
+ul.pandb {
+  list-style-type: circle !important;
 }
