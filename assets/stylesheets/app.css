@@ -143,7 +143,13 @@ a:visited{
 #pandb {
   margin-top: 5px;
   text-align: left;
-  ul li {
+
+  strong {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  ul {
     list-style-type: circle;
   }
 }
