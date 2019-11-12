@@ -139,3 +139,11 @@ a:visited{
 	font-size: 2rem;
 	display: inline;
 }
+
+#pandb {
+  margin-top: 5px;
+  text-align: left;
+  ul li {
+    list-style-type: circle;
+  }
+}
