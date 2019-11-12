@@ -1,5 +1,5 @@
 User-agent:  *
-Disallow: /assets/* 
+Disallow: /assets/*
 Allow: /
 Allow: /sitemap.xml
-Sitemap: https://nsantiago2719.github.io/sitemap.xml
+Sitemap: https://l4z.dev/sitemap.xml
