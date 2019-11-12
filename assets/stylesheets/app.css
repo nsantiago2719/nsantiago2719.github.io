@@ -153,4 +153,5 @@ a:visited{
 
 ul.pandb {
   list-style-type: circle !important;
+  list-style-position: inside !important;
 }
