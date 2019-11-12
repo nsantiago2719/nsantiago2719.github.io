@@ -72,6 +72,14 @@ html{
 	font-size: 10px;
 	font-size: 0.8rem;
 }
+
+ul.pandb li {
+	letter-spacing: 0.06rem;
+	font-size: 10px;
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+}
+
 #video-player{
 	margin: 2rem 0px 2rem 0px;
 	width: 100%;
