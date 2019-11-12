@@ -10,7 +10,7 @@ html{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   background-color: #F4F4F4;
-	color: #282828;
+  color: #282828;
 }
 *, *:before, *:after{
   box-sizing: inherit;
@@ -21,125 +21,104 @@ html{
 /* cover css */
 
 .cover{
-	width: 100%;
-	height: auto;
-	background-image: url('../images/background(xl-l).jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: white;
-	text-align: center;
-	padding: 20vh 0px 20vh 0px;
+  width: 100%;
+  height: auto;
+  background-image: url('../images/background(xl-l).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 20vh 0px 20vh 0px;
 }
 #name-title{
-	font-size: 3rem;
+  font-size: 3rem;
 }
 #name-title,
 #job-title{
-	text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
 }
 #profile-picture{
-	margin: auto;
-	height: 200px;
-	border-radius: 100px;
+  margin: auto;
+  height: 200px;
+  border-radius: 100px;
 }
 
 /* main content css */
 #main-container{
-	max-width: 1160px;
-	margin: 20px auto;
+  max-width: 1160px;
+  margin: 20px auto;
 }
 .content-title{
-	font-size: 1.5rem;
-	font-weight: bold;
-	color: #282828;
-	border-top: solid 2px #282828;
-	border-bottom: solid 2px #282828;
-	padding: 10px 0px 10px 0px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #282828;
+  border-top: solid 2px #282828;
+  border-bottom: solid 2px #282828;
+  padding: 10px 0px 10px 0px;
 }
 .card{
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .card-title{
-	font-size: 1rem;
-	font-weight: bold;
-	text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
 }
 .card-content{
-	text-align: center;
-	letter-spacing: 0.06rem;
-	line-height: 1.2rem;
-	font-size: 10px;
-	font-size: 0.8rem;
+  text-align: center;
+  letter-spacing: 0.06rem;
+  line-height: 1.2rem;
+  font-size: 10px;
+  font-size: 0.8rem;
 }
 
 ul.pandb li {
-	letter-spacing: 0.06rem;
-	font-size: 10px;
-	font-size: 0.8rem;
-	line-height: 1.2rem;
+  letter-spacing: 0.06rem;
+  font-size: 10px;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
 }
 
 #video-player{
-	margin: 2rem 0px 2rem 0px;
-	width: 100%;
+  margin: 2rem 0px 2rem 0px;
+  width: 100%;
 }
 #second-card{
-	margin-top: 0px;
+  margin-top: 0px;
 }
 
 
 /* footer */
 footer{
-	background-color: #282828;
-	width: 100%;
-	padding-top: 2rem;
-}
-.footer{
-	text-align: center;	
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-.social-media-links{
-	color: white;
-	padding: 20px;
-}
-.social-media-links li{
-	display: inline;
-	padding: 1rem;
-	font-size: 3rem;
-}
-a{
-	text-decoration: none;
-	color: white;
-}
-a:visited{
-	color: white;
-}
-.email
-{
-	margin: 2rem 0px 2rem 0px;
-	color: white;
-	border-right: solid 1px white;
-	padding-right: 5px;
-}
-.contact{
-	font-size: 2rem;
-	color: white;
-}
-.
-.sm{
-	font-size: 0.1rem;
-}
-.sub-list{
-	padding-bottom: 2vh;
-}
-.sub-list li{
-	font-size: 2rem;
-	display: inline;
+  background-color: #282828;
+  padding-top: 2rem;
 }
 
+h3 {
+  color: grey;
+  font-weight: bold;
+}
+.footer-list {
+  line-height: 1.3em;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.contact-links{
+  text-decoration: none;
+  color: white;
+}
+
+#footer-container {
+  max-width: 1160px;
+  margin: 0px auto;
+}
+
+#left-splash {
+  height: auto;
+  width: 100%;
+}
 #pandb {
   margin-top: 5px;
   text-align: left;
