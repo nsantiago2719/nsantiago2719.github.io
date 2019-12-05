@@ -2,4 +2,4 @@ User-agent:  *
 Disallow: /assets/*
 Allow: /
 Allow: /sitemap.xml
-Sitemap: https://l4z.dev/sitemap.xml
+Sitemap: https://l4z.xyz/sitemap.xml
