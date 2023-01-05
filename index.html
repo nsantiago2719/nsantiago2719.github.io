@@ -29,15 +29,13 @@
         ]
       }
     </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84123564-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-84123564-1');
-    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+     })(window,document,'script','dataLayer','GTM-W9C75RX');</script>
+     <!-- End Google Tag Manager -->
 
     <link rel="stylesheet" href="assets/stylesheets/reset.css">
     <link rel="stylesheet" href="assets/stylesheets/flexiblegs-css.css">
@@ -47,119 +45,36 @@
     <link rel="stylesheet" href="assets/stylesheets/responsiveness.css">
     <link rel="alternate" href="https://nsantiago.xyz" hreflang="en-us" />
     <link rel="canonical" href="https://nsantiago.xyz" itemprop="url">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="assets/javascripts/app.js" ></script>
   </head>
   <body >
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9C75RX"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <nav class="fixed-nav">
-      <div class="wrap">
-        <div class="col xl-1-1 lg-1-1 md-1-1 sm-1-1">
-          <a id="contact-me" href="mailto:nsantiago2719@gmail.com">Contact Me!</a>
-         </div>
-      </div>
     </nav>
     <div class="wrap">
-      <div class="col xl-1-1 lg-1-1 md-1-1 sm-1-1">
-        <div class="cover">
-          <picture>
-            <source media="(min-width: 769px)"
-                    srcset="assets/images/profile_picture(large).jpg" />
-            <source media="(min-width: 668px)"
-                    srcset="assets/images/profile_picture(medium).jpg" />
-            <source media="(min-width: 1px)"
-                    srcset="assets/images/profile_picture(small).jpg" />
-            <img src="assets/images/profile_picture(extra_large).jpg" id="profile-picture" alt="my_picture :)">
-          </picture>
-          <h1 id="name-title">Norman Santiago</h1>
-        </div>
-      </div>
     </div>
     <div class="wrap" id="main-container">
-      <div class="wrap xl-center lg-center m-center sm-center">
-        <div class="col xl-1-1 lg-1-1 md-1-1 sm-1-1">
-          <h1 class="content-title">
-              Tools and Techs
-          </h1>
-        </div>
-      </div>
-      <div class="wrap xl-gutter-24 lg-gutter-24 md-gutter-16 md-outside-16 sm-outside-24">
-        <div class="col xl-1-3 lg-1-3 md-1-3 sm-1-1 card">
-          <h2 class="card-title">the Cloud</h2>
-          <hr/>
-          <p class="card-content">
-            I mainly use AWS("Amazon Web Service") as my cloud provider for day to day job but I also have some experience in
-            Google Cloud Platform and Digital Ocean. I have been using AWS for quite a while now and I can say that I've immersed
-            myself into it unlike to the other cloud providers. Basically I'm more focused into cloud security and it's architecture
-            as I believe that it is one of the vital parts of a platform. Building reputation and trust to your end users can take
-            more than a decade but it can only take a few minutes to ruin it.
-          </p>
-        </div>
-        <div class="col xl-1-3 lg-1-3 md-1-3 sm-1-1 card">
-          <h2 class="card-title">the Language</h2>
-          <hr/>
-          <p class="card-content">
-            I have learned a couple of programming language before I started working as a professional and one of them is Ruby along with the famous
-            MVC framework Ruby on Rails or so called RoR. I landed my first job as a Junior Rails Developer and that takes me to journey to the cloud.
-            Along that journey I started getting curious on other languages like Python, Go and Javascript. Right now I rarely use Ruby and mostly uses
-            Go for my day to day job. As most of the experienced software engineers I've encountered they always say every language is different,
-            the question is when to use them.
-          </p>
-        </div>
-        <div class="col xl-1-3 lg-1-3 md-1-3 sm-1-1 card">
-          <h2 class="card-title">the As a Code</h2>
-          <hr/>
-          <p class="card-content">
-            Since DevOps is on the rise for the past years and still continuing to the years to come I've encountered the words like
-            "Infrastructre as a Code" or even "Configuration as a Code". My day to day also involves some the tools for this like Terraform and
-            Cloudformation which is a tool for "Infrastructure as a Code. I admit that Terraform is easier than Cloudformation but there are use cases I guess.
-            On the future I would like to use some tools like Chef, Puppet or Ansible as they for "Configuration as a Code" not for "Infrastructure as a Code".
-          </p>
-        </div>
-      </div>
-      <div class="wrap sm-outside-24 md-outside-24 xl-center lg-center m-center sm-center">
-        <div class="col xl-1-2 lg-1-2 md-1-1 sm-1-1">
-          <img id="left-splash" src="assets/images/devops_lifecycle.png" />
-        </div>
-        <div class="col xl-1-2 lg-1-2 md-1-1 sm-1-1">
-          <h1 class="content-title">
-            DevOps Beliefs & Philosophy
-          </h1>
-          <p class="card-content">
-            Through out the years that I have been working immersed on the word DevOps that I have it as my career, I encountered some
-            misconceptions and bad practices about it that goes different from what I've read and learned through my experience. In my opinion and perspective, 
-            for the company to have a "true DevOps" implemented they should have single common goal which brings to my Philosophies and Beliefs.
-          </p>
-          <div id="pandb">
-            <strong>Philosophies</strong>
-            <ul class="pandb">
-              <li>the Team should have a once common goal. Which is to run and serve a service that has a good quality for the end-user.</li>
-              <li>teamwork should be observed and strictly must have.</li>
-              <li>never forget to always learn and improve the existing process/system/culture.</li>
-            </ul>
-            <strong>Beliefs</strong>
-            <ul class="pandb">
-              <li>in my own definition, DevOps is the by product of the company's effort to deliver a good quality product to their end-users.</li>
-              <li>to add, by aiming to have "true DevOps" it will grant the company a big change that can improve not just their performance.</li>
-              <li>lastly, once a "true DevOps" is achieved the end-users will be delighted for the quality of the service they are receiving.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+
     </div>
   </body>
   <footer>
-    <div class="wrap sm-outside-24 md-outside-24" id="footer-container">
-      <div class="col xl-1-1 lg-1-1 md-1-1 sm-1-1 footer">
+    <div class="" id="footer-container">
         <ul class="footer-list">
           <li><h3>Find me at</h3></li>
           <li><a class="contact-links" href="https://github.com/nsantiago2719">github.com</a></li>
           <li><a class="contact-links" href="https://ph.linkedin.com/in/nsantiago2719">linkedin.com</a></li>
           <li><h3>Contact me at my</h3></li>
           <li><a class="contact-links" href="mailto:nsantiago2719@gmail.com">Personal email</a></li>
-          <li><a class="contact-links" href="mailto:profile@l4z.dev">Alternative email</a></li>
           <li><h3>Others</h3></li>
           <li><a class="contact-links" href="sitemap.xml">Sitemap</a></li>
         </ul>
-      </div>
     </div>
   </footer>
 </html>
