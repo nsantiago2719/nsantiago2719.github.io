@@ -2,11 +2,5 @@ body {
   background: url("/assets/images/background(xl-l).jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
-.swiper-slide {
-  color: black;
-  padding: 100px;
-}
-.swiper {
-  width: 800px;
+  background-color: black;
 }
