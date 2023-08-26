@@ -47,43 +47,48 @@
   <link rel="stylesheet" href="assets/stylesheets/app.css">
   <link rel="alternate" href="https://l4z.xyz" hreflang="en-us" />
   <link rel="canonical" href="https://l4z.xyz" itemprop="url">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script src="assets/javascripts/app.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
 
-<body>
+<body class="container mx-auto">
+
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9C75RX" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
 
-  <div class="grid sm:grid-cols-1 xl:grid-cols-4 md:gap-8 gap:10 xl:gap-12 h-screen place-items-center">
-    <div class="sm:w-full col-span-2 aspect-h-5">
-      <img src="assets/images/profile_picture(medium).jpg"
-        class="sm:w-full xl:w-96 bg-blend-lighten xl:mx-auto grayscale rounded-full" alt="display_image" />
-    </div>
-    <div class="col-span-2">
-      <div class="w-full mb-5 text-right font-bold text-neutral-100 text-7xl backdrop-blur p-4">
-        Norman Santiago
+  <div class="place-items-center">
+    <div class="grid grid-cols-1 place-items-center sm:grid-cols-1 xl:grid-cols-1 lg:grid-cols-1 md:grid-cols-1 gap-10">
+      <div class="w-full mt-24 md:mt-48">
+        <img src="assets/images/profile_picture(medium).jpg"
+          class="sm:w-full xl:w-96 bg-blend-lighten xl:mx-auto grayscale rounded-full" alt="display_image" />
       </div>
-      <div class="swiper details-swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide rounded bg-white">
-            <p class="break-words text-7xl font-bold">Software Engineer
-          </div>
-          <div class="swiper-slide rounded bg-white">
-            <p class="break-words text-7xl font-bold">DevOps Engineer
-          </div>
-          <div class="swiper-slide rounded bg-white">
-            <p class="text-xl">Send me a message!</p>
-            <ul class="list-none">
-              <li>email: <a class="simple-text" target="_blank"
-                  href="mailto:nsantiago2719@gmail.com">nsantiago2719@gmail.com</a></li>
-              <li>github: <a class="simple-text" target="_blank"
-                  href="https://github.com/nsantiago2719">github.com/nsantiago2719</a></li>
-              <li>linkedin: <a href="https://linkedin.com/in/nsantiago2719" target="_blank"
-                  class="simple-text">linkedin.com/in/nsantiago2719</a></li>
-            </ul>
+      <div class="w-full place-items-center ">
+        <p
+          class="text-center md:w-1/2 mx-auto md:mb-12 mb-2 text-4xl md:text-7xl lg::text-7xl xl::text-7xl font-bold text-neutral-100 backdrop-blur p-4">
+          Norman Santiago
+        </p>
+        <div class="swiper md:w-1/2 md:p-0 !p-12 w-full">
+          <div class="swiper-wrapper ">
+            <div class="swiper-slide rounded md:p-24 p-6 bg-white">
+              <p class="break-words md:text-7xl lg:text-7xl xl:text-7xl text-base font-bold">Software Engineer
+            </div>
+            <div class="swiper-slide rounded md:p-24 p-6 bg-white">
+              <p class="break-words md:text-7xl lg:text-7xl xl:text-7xl text-lg font-bold">DevOps Engineer
+            </div>
+            <div class="swiper-slide md:p-24 p-6 rounded bg-white">
+              <p class="font-bold md:text-3xl xl:text-3xl  lg:text-3xl">Send me a message!</p>
+              <ul class="list-none md:text-2xl text-sm">
+                <li>email: <a class="simple-text" target="_blank"
+                    href="mailto:nsantiago2719@gmail.com">nsantiago2719@gmail.com</a></li>
+                <li>github: <a class="simple-text" target="_blank"
+                    href="https://github.com/nsantiago2719">github.com/nsantiago2719</a></li>
+                <li>linkedin: <a href="https://linkedin.com/in/nsantiago2719" target="_blank"
+                    class="simple-text">nsantiago2719</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

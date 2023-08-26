@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function(event) { 
-  var swiper = new Swiper(".details-swiper", {
+document.addEventListener("DOMContentLoaded", (event) => {
+  var swiper = new Swiper(".swiper", {
     effect: "cards",
     grabCursor: true,
     keyboard: {
